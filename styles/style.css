@@ -1,17 +1,23 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700&display=swap');/*Navbar*/
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700&display=swap');
+
+
 
 
 body{
    /* background-color: rgb(181, 183, 211);*/
-   background-color: rgb(52, 75, 68);
+    /*background-color: rgb(52, 75, 68);*/
+    background-image: linear-gradient(95deg, #316161 0%, #ae8b9c 120%);
+
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: lighter;
-   color:rgb(194, 92, 194);
-
+    color:rgb(103, 143, 143);
+    margin: 0px; 
+    padding:  0px;
     font-size: 30px;
 }
 
 
+/*NAVBAR*/
 ul {
   list-style: none; /* Entfernt Punkte */
   padding: 0; /* Entfernt Padding */
@@ -38,8 +44,8 @@ a {
 .menu {
     list-style: none;
     margin: 0;
-    padding: 0;
-    display: block;
+    padding: 10px;
+    display: flex;   /*block*/
     flex-direction: row;
     justify-content: flex-end;
    
@@ -70,25 +76,27 @@ a {
     text-align: right;
     text-decoration: none;
     /*color: #4352f9;*/
-    color:darkorange;
+    color:rgb(228, 166, 210);
     font-size: 20px;
     font-weight: bolder;
   }
   /*Palmen*/
   #img {
-    object-fit: cover;
+    object-fit:cover;
     width: 100%;
-    height: 60%;
+    height: 50%;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     align-items: baseline;
     align-content: center;
+
+ 
  
   }
 
   #img-container {
-    position: relative;
+    position:relative;
     text-align: center;
    
   }
@@ -101,31 +109,39 @@ a {
     width: 100%;
     padding-bottom: 20vw;
     display: flex;
-    font-size: 50px; 
+    flex-direction: row;
+    font-size: 10px; 
     color:rgba(251, 109, 180, 0.71);
+    /*color:#fe01b1;*/
   }
   
- /*.centered-title {
-    font-size: 5.5em;
-    font-weight: 700;
-    opacity: 0;
+ .centered-title {
+   font-size: 3.6em;
+    font-weight: 100;
+    opacity: 2;
     animation: fadein 2s forwards;
     animation-delay: 1s; 
-  }*/
+  }
 
   .centered-subtitle {
-    font-size: 1.9em;
-    font-weight: 400;
-    opacity: 0;
+    font-size: 1.3em;
+    font-weight: 100;
+    opacity: 1;
     animation: fadein 2s forwards;
     animation-delay: 2s;
-    color: rgb(186, 229, 28);
-    font-weight:bold;
-    padding-top:5px;
+    color: rgb(202, 253, 100);
+    font-weight:lighter;
+    padding-top:15px;
+    padding-right: 20vw;
+ 
+   
   }
  footer >p{
     color:#c7527f;
-    font-size: 20px;
+    font-size: 15px;
  }
-  /*Neon*/
+ #section4 a{
+    display: flex;
+
+ }
   
