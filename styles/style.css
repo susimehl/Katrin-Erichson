@@ -12,7 +12,7 @@ body{
     font-weight: lighter;
     color:rgb(103, 143, 143);
     text-shadow:6px 3px 15px; /*neon..glow*/
-    margin: 70px; 
+    margin:70px; 
     padding: 40px;
     font-size: 30px;
 }
@@ -88,6 +88,7 @@ a {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
+    border-radius: 10px  10px 10px;
 }
 
   #img-container {
@@ -129,15 +130,60 @@ a {
     padding-top:15px;
     padding-right: 20vw;
  
-   
   }
- footer >p{
+
+  .accordion-item-toggle {
+    display: none;
+  }
+  
+  .accordion-item-header {
+   
+    padding: 10px;
+    cursor:pointer;
+  }
+  
+  .accordion-item-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+    margin-top: 20px;
+    
+  }
+  
+  .accordion-item-toggle:checked ~ .accordion-item-content {
+    max-height: 800px; /* Set an appropriate height */
+  }
+
+li{
+  font-size: 20px;
+  color: rgb(180, 112, 147);
+  margin: 20px;
+}
+
+  /* PUBLICATION*/
+  #section3 > a{
+    text-align: left;
+    display:flex;
+    color:rgba(250, 140, 140, 0.594);
+    font-size: 20px;
+    font-weight: 100;
+    padding-left: 20px;
+  }
+
+  #section3 p{
+    font-size: 15px;
+    padding-left: 30px;
+  }
+
+ 
+ 
+  footer >p{
     color:#cac9c9;
     font-size: 10px;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding-top: 80px;
+   
  }
  #section4 a{
     display: flex;
@@ -146,5 +192,6 @@ a {
  }
  #social{
 width: 50px;
+padding-bottom: 100px;
  }
   
