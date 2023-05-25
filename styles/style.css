@@ -131,7 +131,7 @@ a {
   }
   .centered-text > p{
     position:absolute;
-    top: 25%;
+    top: 21%;
     left: 66%;
     transform: translate(-50%, -50%);
     width: 10%;
@@ -187,12 +187,12 @@ li{
     color:rgba(250, 140, 140, 0.594);
     font-size: 20px;
     font-weight: 100;
-    padding-left: 10px;
+   
   }
 
   #section3 p{
     font-size: 15px;
-    padding-left: 30px;
+    padding-left: 10px;
   }
 
  
