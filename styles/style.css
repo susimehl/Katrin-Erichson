@@ -5,7 +5,7 @@
 
 body{
    /* background-color: rgb(181, 183, 211);*/
-    /*background-color: rgb(52, 75, 68);*/
+   /* background-color: rgb(52, 75, 68);*/
     background-image: linear-gradient(95deg, #316161 0%, #ae8b9c 120%);
 
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -82,7 +82,7 @@ a {
   #img {
     object-fit:cover;
     width: 100%;
-    display: flex;
+   display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     border-radius: 10px  10px 10px;
@@ -105,8 +105,9 @@ a {
     display: flex;
     flex-direction: row;
     font-size: 10px; 
-    color:rgba(251, 109, 180, 0.71);
+    /*color:rgba(251, 109, 180, 0.71);*/
     /*color:#fe01b1;*/
+    color:rgba(253, 51, 85, 0.583);
   }
   
  .centered-title {
@@ -115,6 +116,7 @@ a {
     opacity: 2;
     animation: fadein 2s forwards;
     animation-delay: 1s; 
+    padding-bottom:40px;
   }
 
   .centered-subtitle {
@@ -127,6 +129,7 @@ a {
     font-weight:lighter;
     padding-top:15px;
     padding-right: 20vw;
+    padding-bottom: 50px;
  
   }
   .centered-text > p{
@@ -138,7 +141,7 @@ a {
     display: flex;
     flex-direction: row;
     font-size: 15px; 
-    color:rgb(254, 158, 206);
+    color:rgb(255, 189, 222);
     padding-left: 50px;
   }
 
