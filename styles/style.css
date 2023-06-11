@@ -153,7 +153,7 @@ a {
     display: flex;
     text-align: center;
     padding-bottom: 50px;
-    color:#a57496;
+    color:#a5749a;
     text-shadow: none;
    
   }
@@ -184,44 +184,56 @@ a {
 /*Liste Clients,Booked Artist*/
 li{
   font-size: 20px;
-  color: rgb(180, 112, 147);
-  margin: 20px;
+  color: rgb(203, 122, 164);
+  margin: 20px; /*TEXTBREITE*/
 }
 
-  /* PUBLICATION*/
-  #section3 > a{
+/*PUBLICATION*/
+  #section3  a{
     text-align: left;
     display:flex;
     color:rgb(193, 128, 174);
     font-size: 20px;
     font-weight: 100;
-   
-  }
+   }
 
+/*CONTACT*/
+  #section5 p {
+    color:#feb5d0;
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+  }
  
- 
- 
+ /*IMPRESSUM*/
   footer  p{
     color:#feb5d0;
-    font-size: 20px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-   
- }
- /*MIXCLOUD*/
- #section4 >a{
-    display: flex;
-    color:#f7a3a3;
-    padding-left: 20px;
-    font-size: 25px;
+    font-size: 15px; 
 
  }
- #social{
-width: 50px;
+
+ /*MIXCLOUD*/
+ #section4 a{
+    display: flex;
+    color:#fd9cde;
+    padding-left: 20px;
+    font-size: 25px;
+}
+
+#social img{
+width: 35px;
 padding-bottom: 100px;
- }
- #social.mix{
+
+}
+ #social .mix{
+  width: 80px;
+  padding-bottom: 115px;
   
  }
-  
+ .bio{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 250px;
+ }
