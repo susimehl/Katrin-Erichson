@@ -111,6 +111,7 @@ a {
     /*color:rgba(251, 109, 180, 0.71);*/
     /*color:#fe01b1;*/
     color:rgba(253, 51, 85, 0.583);
+    
   }
   
  .centered-title {
@@ -153,7 +154,7 @@ a {
     display: flex;
     text-align: center;
     padding-bottom: 50px;
-    color:#a5749a;
+    color:#fcb6ed;
     text-shadow: none;
    
   }
@@ -184,7 +185,7 @@ a {
 /*Liste Clients,Booked Artist*/
 li{
   font-size: 20px;
-  color: rgb(203, 122, 164);
+  color: rgb(228, 156, 193);
   margin: 20px; /*TEXTBREITE*/
 }
 
