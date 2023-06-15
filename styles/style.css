@@ -150,13 +150,16 @@ a {
   }
 
   /*LOREM IPSUM*/
-  #section1 > li{
+  #section1  li{
     display: flex;
-    text-align: center;
-    padding-bottom: 50px;
+   align-items: center;
+    justify-content: center;
     color:#fcb6ed;
-    text-shadow: none;
-   
+    
+    font-size: 16px;
+    padding-left: 30px;
+    padding-right: 30px;
+    
   }
   
  
@@ -190,10 +193,11 @@ li{
 }
 
 /*PUBLICATION*/
-  #section3  a{
-    text-align: left;
+  #section3 ul, a{
     display:flex;
-    color:rgb(193, 128, 174);
+    flex-direction: column;
+    align-items: center;
+    color:rgb(223, 159, 204);
     font-size: 20px;
     font-weight: 100;
    }
@@ -231,10 +235,12 @@ padding-bottom: 100px;
   padding-bottom: 115px;
   
  }
+
+ /*FOTO ABOUT*/
  .bio{
-  width: 30%;
+  width: 40%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  padding-left: 250px;
+ padding-left: 270px;
+ 
  }
