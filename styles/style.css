@@ -197,50 +197,99 @@ li{
     display:flex;
     flex-direction: column;
     align-items: center;
-    color:rgb(223, 159, 204);
+   color:rgb(236, 166, 215);
+  
     font-size: 20px;
     font-weight: 100;
    }
 
 /*CONTACT*/
-  #section5 p {
-    color:#feb5d0;
-    display: flex;
-    justify-content: center;
-    font-size: 15px;
-  }
+
+/*SOCIAL MEDIA BUTTONS*/
+
+    #social a {
+      display: inline-block;
+      margin-right: 5px; /* Abstand zwischen den Elementen anpassen */
+    }
+    
+   #social img {
+      width: 30px; /* Breite der Bilder anpassen */
+      height: 30px; /* Höhe der Bilder anpassen */
+    }
+    #social img.mix {
+      height: 10px;
+      
+    }
  
  /*IMPRESSUM*/
   footer  p{
-    color:#feb5d0;
+    color:#f8b3cc;
     font-size: 15px; 
+    display: flex;
+    justify-content:center;
+    padding-top: 100px;
 
  }
+
+ .impress{
+  display: flex;
+  flex-direction:column;
+  text-align: right;
+
+ }
+
+ h7{
+  font-size: 15px;
+  color:hsl(338, 95%, 85%); 
+ }
+
+ .accordion-item-1{
+ display: flex;
+ flex-direction: column;
+ text-align: right;
+
+
+ }
+
 
  /*MIXCLOUD*/
  #section4 a{
     display: flex;
-    color:#fd9cde;
+    color:#fca7e2;
     padding-left: 20px;
     font-size: 25px;
+    text-shadow:none;
+  
 }
+
 
 #social img{
 width: 35px;
-padding-bottom: 100px;
+padding-top: 10px;
+padding-bottom: 10px;
 
 }
  #social .mix{
   width: 80px;
-  padding-bottom: 115px;
+  padding-bottom: 22px;
   
  }
+ 
 
  /*FOTO ABOUT*/
  .bio{
   width: 40%;
   display: flex;
   flex-direction: column;
- padding-left: 270px;
+   padding-left: 320px;
  
+ }
+
+ #section1  li{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding-left: 50px;
+  padding-right: 50px;
  }
