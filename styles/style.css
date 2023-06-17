@@ -238,7 +238,7 @@ li{
       font-size: 15px;
     }
  
- /*IMPRESSUM*/
+ 
   footer  p{
     color:#f8b3cc;
     font-size: 15px; 
@@ -294,7 +294,7 @@ padding-bottom: 10px;
   width: 40%;
   display: flex;
   flex-direction: column;
-  margin-left: 280px;
+  margin-left: 240px;
   border-radius: 5px 5px 5px;
  }
 
@@ -310,7 +310,8 @@ padding-bottom: 10px;
  /*/*//*/*
 
 /* Mobile Styles */
-@media only screen and (max-width: 600px) {
+
+  @media only screen and (max-width: 600px){
   body {
     margin: 20px;
     padding: 20px;
