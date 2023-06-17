@@ -97,7 +97,7 @@ a {
     text-align: center;
    
   }
-
+/*
   .centered-text {
     position:absolute;
     top: 55%;
@@ -110,7 +110,7 @@ a {
     font-size: 10px; 
     /*color:rgba(251, 109, 180, 0.71);*/
     /*color:#fe01b1;*/
-    color:rgba(253, 51, 85, 0.583);
+   /* color:rgba(253, 51, 85, 0.583);
     
   }
   
@@ -149,6 +149,7 @@ a {
     color:rgb(206, 160, 184);
     padding-left: 50px;
   }
+  */
 
   /*LOREM IPSUM*/
   #section1  li{
@@ -375,4 +376,17 @@ footer p{
   font-size: 11px;
 }
 
+#social img{
+  width: 20px;
+  height: 20px;
+  padding-top: 10px;
+  
+  
+  
+  }
+   #social .mix{
+    width: 50px;
+    padding-bottom: 15px;
+    
+   }
 }
