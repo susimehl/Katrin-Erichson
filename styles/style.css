@@ -45,6 +45,14 @@ a {
 }
 
 /*Regel für Menu*/
+/*.menu-container{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8); /* Hintergrundfarbe des Menüs */
+ /* z-index: 999; /* Stellt sicher, dass das Menü über anderen Elementen liegt */ 
+/*}*/
 .menu {
     list-style: none;
     margin: 0;
@@ -81,6 +89,7 @@ a {
     font-size: 20px;
     font-weight: bolder;
   }
+
   /*Tapes*/
   #img {
     object-fit:cover;
@@ -389,4 +398,5 @@ footer p{
     padding-bottom: 15px;
     
    }
+   
 }
