@@ -59,10 +59,10 @@ a {
     margin: 0 10px;
     display: flex;
     flex-direction: column;
-      flex-wrap: nowrap;
-      justify-content: flex-start;
-      align-items: flex-end;
-      align-content: center;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-end;
+    align-content: center;
 
   }
   
@@ -85,7 +85,7 @@ a {
   #img {
     object-fit:cover;
     width: 100%;
-   display: flex;
+    display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     border-radius: 10px  10px 10px;
@@ -115,12 +115,13 @@ a {
   }
   
  .centered-title {
-   font-size: 3.6em;
+    font-size: 3.6em;
     font-weight: 100;
     opacity: 2;
     animation: fadein 2s forwards;
     animation-delay: 1s; 
     padding-bottom:40px;
+
   }
 
   .centered-subtitle {
@@ -136,7 +137,7 @@ a {
     padding-bottom: 50px;
  
   }
-  .centered-text > p{
+  .centered-text >p{
     position:absolute;
     top: 21%;
     left: 66%;
@@ -152,10 +153,9 @@ a {
   /*LOREM IPSUM*/
   #section1  li{
     display: flex;
-   align-items: center;
+    align-items: center;
     justify-content: center;
     color:#fcb6ed;
-    
     font-size: 16px;
     padding-left: 30px;
     padding-right: 30px;
@@ -169,7 +169,6 @@ a {
   }
   
   .accordion-item-header {
-   
     padding: 0px;
     cursor:pointer;
   }
@@ -185,6 +184,8 @@ a {
   .accordion-item-toggle:checked ~ .accordion-item-content {
     max-height: 800px; /* Set an appropriate height */
   }
+
+
 /*Liste Clients,Booked Artist*/
 li{
   font-size: 20px;
@@ -197,8 +198,7 @@ li{
     display:flex;
     flex-direction: column;
     align-items: center;
-   color:rgb(236, 166, 215);
-  
+    color:rgb(236, 166, 215);
     font-size: 20px;
     font-weight: 100;
    }
@@ -220,11 +220,12 @@ li{
       height: 10px;
       
     }
-    #section5 ul>li{
+    #section5 ul >li{
       display: flex;
-      flex-direction: row;
-      justify-content: center;
-      text-align: center;
+      flex-direction:row;
+      justify-content:baseline;
+      text-align:center;
+      font-size: 15px;
     }
  
  /*IMPRESSUM*/
@@ -233,14 +234,16 @@ li{
     font-size: 15px; 
     display: flex;
     justify-content:center;
-    padding-top: 100px;
+    padding-top: 10px;
+    /*color:rgb(254, 162, 208);*/
+    padding-left: 5px;
  
 
  }
 
  h7{
   font-size: 15px;
-  color:hsl(338, 95%, 85%); 
+  color:hsl(338, 93%, 89%); 
  }
 
  .accordion-item-1{
@@ -275,22 +278,14 @@ padding-bottom: 10px;
   padding-bottom: 22px;
   
  }
- #social .handy{
-  width: 22px;
-  height: 25px;
-  padding-bottom: 12px;
-  
- }
- 
- 
 
  /*FOTO ABOUT*/
  .bio{
   width: 40%;
   display: flex;
   flex-direction: column;
-   padding-left: 320px;
- 
+  margin-left: 280px;
+  border-radius: 5px 5px 5px;
  }
 
  #section1  li{
@@ -301,3 +296,83 @@ padding-bottom: 10px;
   padding-left: 50px;
   padding-right: 50px;
  }
+
+ /*/*//*/*
+
+/* Mobile Styles */
+@media only screen and (max-width: 600px) {
+  body {
+    margin: 20px;
+    padding: 20px;
+    font-size: 20px;
+  }
+
+  .menu {
+    justify-content: center;
+
+  }
+
+  .menu li {
+    margin: 5px 10px;
+  }
+  .menu a {
+    font-size: 16px;
+  }
+
+
+
+  .centered-title {
+    font-size: 2.4em;
+  }
+
+  .centered-subtitle {
+    font-size: 1.8em;
+    padding-right: 0;
+  }
+
+  .centered-text p {
+    font-size: 12px;
+  }
+
+  .bio {
+    width: 50%;
+    margin-left: 130px;
+  }
+
+  #section1 li {
+    padding: 10px;
+    font-size: 15px;
+  
+  }
+  
+  li {
+    margin: 10px;
+  }
+  /*PUBLICATION*/
+  #section3 ul, a{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    color:rgb(236, 166, 215);
+    font-size: 15px;
+    font-weight: 100;
+  
+   }
+   /*MIXCLOUD*/
+ #section4 a{
+  display: flex;
+  color:#fca7e2;
+  padding-left: 8px;
+  font-size: 15px;
+  text-shadow:none;
+
+}
+#section5 ul >li{
+ font-size: 10px;
+}
+
+footer p{
+  font-size: 11px;
+}
+
+}
