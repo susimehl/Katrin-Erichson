@@ -106,59 +106,6 @@ a {
     text-align: center;
    
   }
-/*
-  .centered-text {
-    position:absolute;
-    top: 55%;
-    left: 60%;
-    transform: translate(-50%, -50%);
-    width: 100%;
-    padding-bottom: 20vw;
-    display: flex;
-    flex-direction: row;
-    font-size: 10px; 
-    /*color:rgba(251, 109, 180, 0.71);*/
-    /*color:#fe01b1;*/
-   /* color:rgba(253, 51, 85, 0.583);
-    
-  }
-  
- .centered-title {
-    font-size: 3.6em;
-    font-weight: 100;
-    opacity: 2;
-    animation: fadein 2s forwards;
-    animation-delay: 1s; 
-    padding-bottom:40px;
-
-  }
-
-  .centered-subtitle {
-    font-size: 2.6em;
-    font-weight: 100;
-    opacity: 1;
-    animation: fadein 2s forwards;
-    animation-delay: 2s;
-    color: rgb(175, 220, 85);
-    font-weight:lighter;
-    padding-top:15px;
-    padding-right: 20vw;
-    padding-bottom: 50px;
- 
-  }
-  .centered-text >p{
-    position:absolute;
-    top: 21%;
-    left: 66%;
-    transform: translate(-50%, -50%);
-    width: 10%;
-    display: flex;
-    flex-direction: row;
-    font-size: 15px; 
-    color:rgb(206, 160, 184);
-    padding-left: 50px;
-  }
-  */
 
   /*LOREM IPSUM*/
   #section1  li{
@@ -171,6 +118,24 @@ a {
     padding-right: 30px;
     
   }
+  /*FOTO ABOUT*/
+ .bio{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 200px;
+  border-radius: 5px 5px 5px;
+ }
+
+ #section1  li{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding-left: 50px;
+  padding-right: 50px;
+ }
+
   
  
 /* CLIENT/BOOKED AKKORDION*/
@@ -289,70 +254,50 @@ padding-bottom: 10px;
   
  }
 
- /*FOTO ABOUT*/
- .bio{
-  width: 50%;
-  display: flex;
-  flex-direction: column;
-  margin-left: 280px;
-  border-radius: 5px 5px 5px;
- }
-
- #section1  li{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-  padding-left: 50px;
-  padding-right: 50px;
- }
-
+ 
  /*/*//*/*
 
 /* Mobile Styles */
 
-  @media only screen and (min-width: 480px) and (max-width: 320px){
+  @media only screen and (min-width: 390px) and (max-width: 600px){
   body {
-    margin: 20px;
-    padding: 20px;
+    margin: 10px;
+    padding: 0px;
     font-size: 20px;
   }
 
   .menu {
-    justify-content: center;
+    justify-content:center;
 
   }
 
   .menu li {
-    margin: 5px 10px;
+    margin: 0px 3px;
   }
   .menu a {
-    font-size: 16px;
+    font-size: 13px;
   }
 
 
+  /*Tapes*/
+  #img {
+    max-width: 100%;
+    /**/
+  
+}
 
-  .centered-title {
-    font-size: 2.4em;
-  }
-
-  .centered-subtitle {
-    font-size: 1.8em;
-    padding-right: 0;
-  }
-
-  .centered-text p {
-    font-size: 12px;
-  }
-
+h3{
+  font-size: 20px;
+  margin-left: 10px;
+}
   .bio {
-    width: 50%;
-    margin-left: 130px;
+    width: 80%;
+    margin-left: 40px;
   }
 
   #section1 li {
-    padding: 10px;
-    font-size: 15px;
+    padding:0px;
+    font-size: 13px;
   
   }
   
