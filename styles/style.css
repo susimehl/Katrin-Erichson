@@ -120,10 +120,10 @@ a {
   }
   /*FOTO ABOUT*/
  .bio{
-  width: 50%;
+  width: 40%;
   display: flex;
   flex-direction: column;
-  margin-left: 200px;
+  margin-left: 320px;
   border-radius: 5px 5px 5px;
  }
 
@@ -304,6 +304,31 @@ h3{
   li {
     margin: 10px;
   }
+
+  /* CLIENT/BOOKED AKKORDION*/
+  .accordion-item-toggle {
+    display: none;
+  }
+  
+  .accordion-item-header {
+    padding-left: 15px;
+    cursor:pointer;
+    
+  }
+  
+  .accordion-item-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+    margin-top: 0px;
+    
+  }
+  
+  .accordion-item-toggle:checked ~ .accordion-item-content {
+    max-height: 900px; /* Set an appropriate height */
+  }
+
+
   /*PUBLICATION*/
   #section3 ul, a{
     display:flex;
